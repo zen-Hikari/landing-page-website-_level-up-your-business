@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import luxy from "luxy.js";
 import AOS from "aos";
+import { Analytics } from '@vercel/analytics/react';
 import "aos/dist/aos.css";
 import "./App.css";
 import Navbar from "./components/Navbar";
@@ -60,6 +61,7 @@ function App() {
       <Testimonial2 />
       <Talk />
       <Footer />
+      <Analytics />
     </main>
   );
 }
