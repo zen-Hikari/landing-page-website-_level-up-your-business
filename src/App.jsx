@@ -22,7 +22,7 @@ function App() {
     if (window.innerWidth > 768) {
       luxy.init({
         wrapper: "#luxy",
-        wrapperSpeed: 0.03,
+        wrapperSpeed: 0.08,
       });
     }
 
