@@ -20,7 +20,7 @@ import Footer from "./components/Footer";
 function App() {
   useEffect(() => {
     // Inisialisasi Luxy.js hanya untuk layar besar
-    if (window.innerWidth > 768) {
+    if (window.innerWidth) {
       luxy.init({
         wrapper: "#luxy",
         wrapperSpeed: 0.08,
