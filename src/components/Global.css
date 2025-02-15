@@ -1,0 +1,289 @@
+:root {
+    --ungu: #7C76BB; 
+    --pink: #FF87B0;
+    --bg: #27A3FF; 
+}
+.logo h1 {
+    color: var(--ungu);
+}
+.nav-ico {
+    color: var(--pink);
+}
+.link-menu {
+    color: var(--ungu);
+}
+.btn a {
+    background-color: var(--ungu);
+}
+.container {
+    max-width: 1500px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.detail-title {
+    color: var(--ungu);
+}
+.detail-title span {
+    color: var(--pink);
+}
+.hero-btn .btn-1 {
+    background-color: var(--ungu);
+}
+.hero-btn .btn-2 {
+    border-color: var(--ungu);
+    border-width: 2px;
+    color: var(--ungu);
+}
+
+
+.brand-title {
+    color: var(--ungu);
+}
+
+
+.judul-ser {
+    color: var(--pink);
+}
+.ser-title {
+    color: var(--ungu);
+}
+.service-btn a {
+    border-color: var(--ungu);
+    border-bottom-width: 3px;
+    padding-bottom: 5px;
+}
+.service-btn .btn-2 {
+    border-color: #a8a7b4;
+}
+.cricle {
+    color: var(--ungu);
+}
+
+
+.card{
+    background-color: #dff2ff;
+}
+.main-ser-title h1 {
+    color: var(--ungu);
+}
+.card-detail h1 {
+    color: var(--ungu);
+}
+.btn-main a {
+    color: var(--ungu);
+    border-width: 2px;
+    border-color: var(--ungu);
+    border-radius: 10px;
+}
+.btn-main a:hover {
+    background-color: var(--ungu);
+    color: white;
+    transition: all;
+    transition-duration: 0.4s;
+}
+
+.card-testi {
+    box-shadow: 5px 5px 10px rgb(166, 166, 166);
+    border-radius: 15px;
+}
+.testi-title {
+    color: var(--ungu);
+}
+.custom {
+    color: var(--ungu);
+}
+.img-testi img {
+    background-color: #B4D1C4;
+    border-radius: 100%;
+}
+.profile img {
+    background-color: #F6DE9D;
+    border-radius: 100%;
+}
+.profile2 img {
+    background-color: #FF87B0;
+    border-radius: 100%;
+}
+.profile3 img {
+    background-color: #ADA8D6;
+    border-radius: 100%;
+}
+.quotes-bg img {
+    right: 0;
+    z-index: -10;
+}
+.card-testi {
+    position: relative; /* Agar posisi absolute bekerja dalam area ini */
+
+}
+
+.img-quote-1 {
+    position: absolute;
+    top: -20px; /* Naik sedikit ke atas */
+    left: -20px; /* Geser ke kiri */
+    width: 50px; /* Pastikan responsif */
+}
+
+.img-quote {
+    position: absolute;
+    bottom: -20px; /* Geser sedikit ke bawah */
+    right: -20px; /* Geser ke kanan */
+    width: 50px;
+}
+
+
+
+.talk {
+    color: var(--ungu);
+}
+.talk-btn a {
+    border-color: var(--ungu);
+    border-width: 2px;
+    border-radius: 10px;
+    color: var(--ungu);
+}
+.talk-btn a:hover {
+    background-color: var(--ungu);
+    color: white;
+    transition: 0.3s all ;
+}
+
+footer {
+    background-color: #eaf6ff;
+}
+.logo-footer {
+    color: var(--ungu);
+}
+.icon-footer {
+    color: var(--pink);
+}
+.link-1, .link-2, .link-3 {
+    color: var(--ungu);
+}
+
+
+@media screen and (max-width: 1325px) {
+    footer {
+        text-align: center;
+    }
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo-footer {
+        text-align: center;
+    }
+    .ico-footer {
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 1024px) {
+    header {
+        background-color: var(--ungu);
+    }
+    nav .logo h1 {
+        color: white;
+
+    }
+    .link-menu .btn a {
+        background-color: var(--pink);
+    }
+    .link-menu {
+      background-color: var(--ungu);
+      margin-right: 0;
+      position: absolute;
+      flex-direction: column;
+      top: 70px;
+      right: 0;
+      left: 0;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      padding-bottom: 25px;
+      padding-top: 25px;
+  }
+}
+@media screen and (max-width: 961px) {
+    .hero-wrap {
+        flex-direction: column-reverse;
+    }
+    .service-1 {
+        flex-direction: column-reverse;
+    }
+    .service-2 {
+        flex-direction: column-reverse;
+    }
+    .card-comp {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .testi-comp {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .service-cont br {
+        display: none;
+    }
+    .hero-detail {
+        margin-left: none;
+        max-width: max-content;
+        text-align: center;
+    }
+    .hero {
+        padding-bottom: 50px;
+    }
+    .hero-btn {
+        flex-direction: column;   
+        gap: 5px;
+    }
+    .hero-btn  a {
+        width: 100%;   
+    }
+}
+@media screen and (max-width: 835px) {
+    .brand-ico {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .card-comp-2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+@media screen and (max-width: 513px) {
+    .detail-desc {
+        font-size: 13px;
+    }
+    .detail-desc br {
+        display: none;
+    }
+    .logo-footer br {
+        display: none;
+    }
+    .logo-footer p {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 349px) {
+    .service-cont p {
+        font-size: 12px;
+    }
+    .service-btn {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 322px) {
+    .card-detail p {
+        font-size: 13px;
+    }
+}
