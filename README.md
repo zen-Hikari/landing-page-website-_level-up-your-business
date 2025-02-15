@@ -1,6 +1,6 @@
 # Landing Page Website - Level Up Your Business
 
-![Landing Page Preview](https://your-image-link.com)
+![Landing Page Preview](https://raw.githubusercontent.com/zen-Hikari/landing-page-website-_level-up-your-business/refs/heads/main/public/preview.png)
 
 ## 📌 Description
 A modern and responsive landing page to enhance your business. Built with React and the latest technologies to provide an optimal user experience.
